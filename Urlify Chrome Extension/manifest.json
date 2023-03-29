@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Urlify",
+    "author": "@devmoron",
+    "description": "Urlify is a extension that helps you to save links on the go.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "./logo.png",
+        "32": "./logo.png",
+        "48": "./logo.png",
+        "128": "./logo.png"
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab"
+    ]
+}
